@@ -7,7 +7,7 @@ from peewee import (DateTimeField, ForeignKeyField, IntegerField, Model,
 db = SqliteDatabase("database.db")
 
 
-class BaseModel(Model):
+class BaseModel(Model): 
     class Meta:
         database = db
 
